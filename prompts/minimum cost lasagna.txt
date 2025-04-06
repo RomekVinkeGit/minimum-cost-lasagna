@@ -1,0 +1,59 @@
+I want to build a machine learning project with the following specifications. Please break this project into logical steps 
+and suggest the best prompts I should give you at each step to successfully implement it. The goal is to build a complete pipeline and a Streamlit app.
+
+Project name: Minimum Cost Lasagna
+
+Objective:
+
+Use 2 years of weekly price data for ingredients in a vegetable lasagna recipe
+
+Forecast ingredient prices one month into the future using five different methods
+
+Select the best method via 10-fold cross-validation using RMSE
+
+Use the best model to forecast future prices
+
+Find the day with the lowest total lasagna cost in the next month
+
+Build a Streamlit app to visualize and interact with the analysis
+
+Data:
+
+CSV file with 2 years of weekly prices of ingredients scraped from Albert Heijn
+
+One column for date, and other columns for each ingredient and prices (e.g., zucchini, tomato, pasta sheets, etc.)
+
+Forecasting methods to evaluate:
+
+Holt-Winters exponential smoothing
+
+K-Nearest Neighbors for time series
+
+Auto-regressive model
+
+ARIMA
+
+Machine learning-based model (e.g., Random Forest or Gradient Boosting)
+
+Evaluation:
+
+10-fold cross-validation on training set
+
+Root Mean Squared Error (RMSE) as the evaluation metric
+
+Desired Output:
+
+Forecasted prices for each ingredient
+
+The date within the next month when the total cost of ingredients is forecasted to be lowest
+
+A Streamlit app that shows:
+
+Historical and forecasted prices
+
+Best model and its performance
+
+Interactive display of total lasagna cost over time
+
+Please break this project into steps like: data loading, preprocessing, model training & evaluation, forecasting, optimization, 
+visualization, Streamlit integration, etc. Then, for each step, suggest what prompt I should give you to get the code or guidance I need.
